@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120">
+  <style>
+    .label { font-family: sans-serif; font-size: 14px; text-anchor: middle; }
+    .mol { fill: #f0f0f0; stroke: #333; stroke-width: 1.5; }
+    .kn { font-family: sans-serif; font-size: 12px; text-anchor: middle; fill: #555; }
+  </style>
+  <g transform="translate(10, 20)">
+    <text x="50" y="-5" class="label">I. n-pentan</text>
+    <ellipse cx="50" cy="40" rx="50" ry="15" class="mol"/>
+    <text x="50" y="85" class="kn">En Yüksek K.N.</text>
+  </g>
+  <g transform="translate(110, 20)">
+    <text x="50" y="-5" class="label">II. 2-metilbütan</text>
+    <ellipse cx="50" cy="40" rx="40" ry="25" class="mol"/>
+    <text x="50" y="85" class="kn">Orta K.N.</text>
+  </g>
+  <g transform="translate(220, 20)">
+    <text x="50" y="-5" class="label">III. 2,2-dimetilpropan</text>
+    <circle cx="50" cy="40" r="30" class="mol"/>
+    <text x="50" y="85" class="kn">En Düşük K.N.</text>
+  </g>
+</svg>

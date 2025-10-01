@@ -886,5 +886,116 @@
                 "svg_image": ""
             }
         ]
+    },
+    {
+        "id": "b8b0155f",
+        "topic": "kimya - Alkanlar",
+        "count": 5,
+        "files": {
+            "questions_word": "sorular_b8b0155f.docx",
+            "solutions_word": "cozumler_b8b0155f.docx",
+            "svg_files": [
+                "gorsel_b8b0155f_3.svg"
+            ]
+        },
+        "timestamp": "2025-10-02T01:44:01.963036",
+        "questions": [
+            {
+                "question": "CH₃–CH(CH₃)–CH₂–CH(C₂H₅)–CH₃ kapalı formülüne sahip bileşiğin IUPAC sistemine göre adı aşağıdakilerden hangisidir?",
+                "options": [
+                    "2,4-dimetilheptan",
+                    "4-etil-2-metilhekzan",
+                    "3,5-dimetilheptan",
+                    "2-etil-4-metilhekzan"
+                ],
+                "correct_answer_index": 0,
+                "solution_steps": [
+                    "İlk olarak, en uzun kesintisiz karbon zinciri belirlenir. Yapıdaki etil (C₂H₅) grubu –CH₂–CH₃ olarak açıldığında, en uzun zincirin 7 karbonlu olduğu görülür. Bu nedenle bileşiğin ana zinciri 'heptan'dır.",
+                    "Ana zincir, dallanmış grupların bağlı olduğu karbon atomlarına en küçük numaraların verileceği uçtan itibaren numaralandırılır.",
+                    "Soldan sağa numaralandırıldığında, metil grupları 2. ve 4. karbonlara bağlıdır. (2,4)",
+                    "Sağdan (etil grubunun ucundan başlayarak) numaralandırıldığında, metil grupları 3. ve 5. karbonlara bağlıdır. (3,5)",
+                    "IUPAC kurallarına göre, en küçük numara seti (2,4) tercih edilir.",
+                    "Son olarak, dallanmış grupların adları ve yerleri belirtilerek bileşiğin tam adı yazılır: 2,4-dimetilheptan."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "Aşağıdaki bileşiklerden hangisi n-hekzan'ın yapı izomeridir?",
+                "options": [
+                    "2-metilpentan",
+                    "n-heptan",
+                    "Siklohekzan",
+                    "2-metilhekzan"
+                ],
+                "correct_answer_index": 0,
+                "solution_steps": [
+                    "Yapı izomerleri, kapalı formülleri aynı ancak atomlarının dizilişleri (açık formülleri) farklı olan moleküllerdir.",
+                    "n-hekzan, 6 karbonlu bir alkandır. Alkanların genel formülü CnH2n+2'dir. n=6 için n-hekzan'ın kapalı formülü C₆H₁₄'tür.",
+                    "Şıklardaki bileşiklerin kapalı formülleri incelenir:",
+                    "A) 2-metilpentan: Pentan (5 karbon) + metil (1 karbon) = 6 karbon. Bir alkan olduğu için kapalı formülü C₆H₁₄'tür.",
+                    "B) n-heptan: 7 karbonlu bir alkandır, kapalı formülü C₇H₁₆'dır.",
+                    "C) Siklohekzan: 6 karbonlu bir sikloalkandır. Sikloalkanların genel formülü CnH2n olduğu için kapalı formülü C₆H₁₂'dir.",
+                    "D) 2-metilhekzan: Hekzan (6 karbon) + metil (1 karbon) = 7 karbon. Bir alkan olduğu için kapalı formülü C₇H₁₆'dır.",
+                    "Kapalı formülü n-hekzan ile aynı (C₆H₁₄) olan tek bileşik 2-metilpentan'dır. Dolayısıyla n-hekzan'ın yapı izomeridir."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "I. n-pentan, II. 2-metilbütan, III. 2,2-dimetilpropan bileşiklerinin aynı dış basınç altındaki kaynama noktalarının doğru sıralanışı aşağıdakilerden hangisidir?",
+                "options": [
+                    "I > II > III",
+                    "III > II > I",
+                    "II > I > III",
+                    "I > III > II"
+                ],
+                "correct_answer_index": 0,
+                "solution_steps": [
+                    "Verilen üç bileşik de C₅H₁₂ kapalı formülüne sahip yapı izomerleridir.",
+                    "Alkanların izomerlerinde kaynama noktası, moleküller arası London dağılım kuvvetlerinin gücüne bağlıdır. Bu kuvvetler ise molekülün temas yüzeyi ile doğru orantılıdır.",
+                    "Dallanma arttıkça molekül daha küresel bir şekil alır ve temas yüzeyi azalır. Bu durum London kuvvetlerini zayıflatır ve kaynama noktasını düşürür.",
+                    "I. n-pentan: Düz zincirlidir, en büyük temas yüzeyine sahiptir. Dolayısıyla kaynama noktası en yüksektir.",
+                    "II. 2-metilbütan: Bir adet dallanması vardır. Temas yüzeyi n-pentan'dan daha küçüktür.",
+                    "III. 2,2-dimetilpropan: En çok dallanmaya sahip olup en küresel yapıdadır. Temas yüzeyi en küçük olduğu için kaynama noktası en düşüktür.",
+                    "Bu nedenle, kaynama noktaları sıralaması I > II > III şeklindedir."
+                ],
+                "svg_image": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"120\" viewBox=\"0 0 320 120\">\n  <style>\n    .label { font-family: sans-serif; font-size: 14px; text-anchor: middle; }\n    .mol { fill: #f0f0f0; stroke: #333; stroke-width: 1.5; }\n    .kn { font-family: sans-serif; font-size: 12px; text-anchor: middle; fill: #555; }\n  </style>\n  <g transform=\"translate(10, 20)\">\n    <text x=\"50\" y=\"-5\" class=\"label\">I. n-pentan</text>\n    <ellipse cx=\"50\" cy=\"40\" rx=\"50\" ry=\"15\" class=\"mol\"/>\n    <text x=\"50\" y=\"85\" class=\"kn\">En Yüksek K.N.</text>\n  </g>\n  <g transform=\"translate(110, 20)\">\n    <text x=\"50\" y=\"-5\" class=\"label\">II. 2-metilbütan</text>\n    <ellipse cx=\"50\" cy=\"40\" rx=\"40\" ry=\"25\" class=\"mol\"/>\n    <text x=\"50\" y=\"85\" class=\"kn\">Orta K.N.</text>\n  </g>\n  <g transform=\"translate(220, 20)\">\n    <text x=\"50\" y=\"-5\" class=\"label\">III. 2,2-dimetilpropan</text>\n    <circle cx=\"50\" cy=\"40\" r=\"30\" class=\"mol\"/>\n    <text x=\"50\" y=\"85\" class=\"kn\">En Düşük K.N.</text>\n  </g>\n</svg>"
+            },
+            {
+                "question": "Propan gazının, ultraviyole (UV) ışık varlığında brom (Br₂) ile tepkimesi sonucu oluşan ana organik ürün aşağıdakilerden hangisidir?",
+                "options": [
+                    "1-bromopropan",
+                    "2-bromopropan",
+                    "1,2-dibromopropan",
+                    "Hekzan"
+                ],
+                "correct_answer_index": 1,
+                "solution_steps": [
+                    "Alkanlar, UV ışığı gibi katalizörler eşliğinde halojenlerle radikalik yer değiştirme (sübstitüsyon) tepkimesi verirler. Bu tepkimede bir hidrojen atomu, bir halojen atomuyla yer değiştirir.",
+                    "Propan (CH₃–CH₂–CH₃) molekülünde iki farklı tür hidrojen atomu bulunur: Uçlardaki karbonlara bağlı birincil (primer) hidrojenler ve ortadaki karbona bağlı ikincil (sekonder) hidrojenler.",
+                    "Radikalik halojenasyon tepkimelerinde, halojen atomu daha kararlı bir radikal ara ürün oluşturacak hidrojeni tercih eder. Radikal kararlılığı sırası: üçüncül > ikincil > birincil şeklindedir.",
+                    "Propan molekülünde ikincil karbon atomu (ortadaki), birincil karbon atomlarından (uçlardakiler) daha kararlı bir radikal oluşturur.",
+                    "Bu nedenle, brom atomunun ikincil karbondaki hidrojen ile yer değiştirmesiyle oluşan 2-bromopropan ana üründür. 1-bromopropan ise yan ürün olarak daha az miktarda oluşur."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "Alkanlar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+                "options": [
+                    "Genel formülleri CnH2n+2'dir.",
+                    "Doymuş hidrokarbonlardır.",
+                    "Suda iyi çözünürler.",
+                    "Yanma tepkimesi vererek CO₂ ve H₂O oluştururlar."
+                ],
+                "correct_answer_index": 2,
+                "solution_steps": [
+                    "A) Halkasız (asiklik) alkanların genel formülü CnH2n+2'dir. Bu ifade doğrudur.",
+                    "B) Alkanlardaki tüm karbon-karbon bağları tekli (sigma) bağlarıdır. Bu nedenle karbon atomları maksimum sayıda hidrojene bağlanmıştır ve doymuş hidrokarbonlar olarak sınıflandırılırlar. Bu ifade doğrudur.",
+                    "C) Alkanlar, elektronegatiflikleri birbirine yakın olan karbon ve hidrojen atomlarından oluştukları için apolar moleküllerdir. Su (H₂O) ise polar bir çözücüdür. Kimyadaki 'benzer benzeri çözer' ilkesine göre, apolar alkanlar polar olan suda çözünmezler. Bu ifade yanlıştır.",
+                    "D) Tüm hidrokarbonlar gibi alkanlar da yeterli oksijen varlığında yandıklarında karbondioksit (CO₂) ve su (H₂O) oluştururlar. Bu tepkime ekzotermiktir. Bu ifade doğrudur.",
+                    "Soruda yanlış olan ifade istendiği için doğru cevap C seçeneğidir."
+                ],
+                "svg_image": ""
+            }
+        ]
     }
 ]
