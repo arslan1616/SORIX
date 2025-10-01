@@ -10,6 +10,8 @@ from docx import Document
 from docx.shared import Inches
 import cairosvg
 import tempfile  # GÜVENLİ GEÇİCİ DOSYA İŞLEMLERİ İÇİN EKLENDİ
+import os
+
 
 # --- Kurulum ---
 load_dotenv()
@@ -158,6 +160,7 @@ def generate_ai_questions_in_batch(topic, sub_topic, count, is_visual, question_
         print(f"API Hatası veya JSON Parse Hatası: {e}")
         return None
 
+print("GOOGLE_API_KEY:", os.getenv("GOOGLE_API_KEY"))
 
 # --- Rotalar ---
 @app.route('/')
