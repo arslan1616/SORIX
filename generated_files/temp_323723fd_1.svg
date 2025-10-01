@@ -1,0 +1,9 @@
+<svg width="220" height="160" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="20,140 200,140 200,20" style="fill:rgba(230,240,255,0.7);stroke:black;stroke-width:2" />
+  <polyline points="180,140 180,120 200,120" style="fill:none;stroke:black;stroke-width:1.5" />
+  <text x="10" y="145" font-family="Arial" font-size="18" font-weight="bold">A</text>
+  <text x="205" y="145" font-family="Arial" font-size="18" font-weight="bold">C</text>
+  <text x="205" y="25" font-family="Arial" font-size="18" font-weight="bold">B</text>
+  <text x="100" y="158" font-family="Arial" font-size="16">8</text>
+  <text x="210" y="85" font-family="Arial" font-size="16">6</text>
+</svg>

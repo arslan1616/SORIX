@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorix | AI Soru Paneli</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header"><h2>Sorix Panel</h2></div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-link active" data-target="generate-view">Soru Üret</a>
+                <a href="#" class="nav-link" data-target="history-view">Geçmiş Dökümanlar</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section id="generate-view" class="content-view">
+                <header><h1>Yeni Soru Dökümanı Oluştur</h1><p>Konu ve sayı belirtin, yapay zeka sizin için soruları hazırlasın.</p></header>
+                <div class="form-container">
+                    <div class="form-group"><label for="topic">Ana Konu:</label><select id="topic"><option value="matematik">Matematik</option><option value="geometri">Geometri</option><option value="fizik">Fizik</option><option value="kimya">Kimya</option></select></div>
+                    <div class="form-group"><label for="question-type">Soru Tipi:</label><select id="question-type"><option value="classic">Klasik (Açık Uçlu)</option><option value="multiple_choice">Çoktan Seçmeli (Şıklı)</option></select></div>
+                    <div class="form-group"><label for="sub-topic">Alt Konu:</label><input type="text" id="sub-topic" placeholder="Örn: Dik Üçgen ve Trigonometri"></div>
+                    <div class="form-group"><label for="question-count">Soru Sayısı (1-10):</label><input type="number" id="question-count" value="3" min="1" max="10"></div>
+                    <div class="form-group-checkbox"><input type="checkbox" id="is-visual"><label for="is-visual">Görselli Soru Üret</label></div>
+                    <button id="generate-btn">Dökümanları Oluştur</button>
+                </div>
+                <div id="loading-spinner" class="hidden"><div class="spinner"></div><p>Yapay zeka soruları hazırlıyor...</p></div>
+                <div id="error-message" class="hidden"></div>
+            </section>
+
+            <section id="history-view" class="content-view hidden">
+                 <header><h1>Geçmiş Dökümanlar</h1><p>Daha önce oluşturduğunuz soru setleri.</p></header>
+                <div class="table-container">
+                    <table id="history-table">
+                        <thead><tr><th>Konu</th><th>Soru Sayısı</th><th>Tarih</th><th>İşlemler</th></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="details-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close">&times;</button>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+            <div id="modal-downloads"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
