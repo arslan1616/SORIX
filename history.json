@@ -649,5 +649,242 @@
                 "svg_image": "<svg width=\"250\" height=\"200\" viewBox=\"0 0 250 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"100\" r=\"50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 230 100 L 100 50.71\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 230 100 L 100 149.29\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"3\" fill=\"black\"/><text x=\"95\" y=\"95\" font-family=\"Arial\" font-size=\"16\">O</text><circle cx=\"100\" cy=\"50.71\" r=\"3\" fill=\"black\"/><text x=\"95\" y=\"45\" font-family=\"Arial\" font-size=\"16\">A</text><circle cx=\"100\" cy=\"149.29\" r=\"3\" fill=\"black\"/><text x=\"95\" y=\"165\" font-family=\"Arial\" font-size=\"16\">B</text><circle cx=\"230\" cy=\"100\" r=\"3\" fill=\"black\"/><text x=\"235\" y=\"105\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"160\" y=\"70\" font-family=\"Arial\" font-size=\"14\">12 cm</text></svg>"
             }
         ]
+    },
+    {
+        "id": "ba922418",
+        "topic": "matematik - Üçgenler",
+        "count": 10,
+        "files": {
+            "questions_word": "sorular_ba922418.docx",
+            "solutions_word": "cozumler_ba922418.docx",
+            "svg_files": [
+                "gorsel_ba922418_1.svg",
+                "gorsel_ba922418_3.svg",
+                "gorsel_ba922418_5.svg",
+                "gorsel_ba922418_6.svg",
+                "gorsel_ba922418_8.svg",
+                "gorsel_ba922418_9.svg"
+            ]
+        },
+        "timestamp": "2025-10-02T01:38:01.954317",
+        "questions": [
+            {
+                "question": "Bir ABC dik üçgeninde, A açısı dik açıdır. |AB| = 8 cm ve |AC| = 15 cm ise, hipotenüs olan |BC| kenarının uzunluğu kaç cm'dir?",
+                "options": [
+                    "16 cm",
+                    "17 cm",
+                    "19 cm",
+                    "23 cm"
+                ],
+                "correct_answer_index": 1,
+                "solution_steps": [
+                    "Bu bir dik üçgen olduğundan, kenar uzunlukları arasında Pisagor teoremi geçerlidir.",
+                    "Pisagor Teoremi: a² + b² = c², burada a ve b dik kenarlar, c ise hipotenüstür.",
+                    "Verilen değerleri formüle yerleştirelim: |AB|² + |AC|² = |BC|²",
+                    "8² + 15² = |BC|²",
+                    "64 + 225 = |BC|²",
+                    "289 = |BC|²",
+                    "Her iki tarafın karekökünü alırsak: |BC| = √289 = 17 cm bulunur.",
+                    "Bu aynı zamanda 8-15-17 özel dik üçgenidir."
+                ],
+                "svg_image": "<svg width='180' height='130' xmlns='http://www.w3.org/2000/svg'><polygon points='10,120 10,10 160,120' style='fill:none;stroke:black;stroke-width:2' /><rect x='10' y='100' width='20' height='20' style='fill:none;stroke:black;stroke-width:1' /><text x='0' y='65' font-size='16'>A</text><text x='165' y='125' font-size='16'>B</text><text x='0' y='125' font-size='16'>C</text><text x='80' y='130' font-size='14'>15 cm</text><text x='0' y='60' font-size='14' transform='rotate(90 10,60)'>8 cm</text><text x='70' y='60' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "Bir üçgenin iki kenar uzunluğu 7 cm ve 11 cm'dir. Bu üçgenin üçüncü kenarının uzunluğu santimetre cinsinden kaç farklı tam sayı değeri alabilir?",
+                "options": [
+                    "11",
+                    "12",
+                    "13",
+                    "14"
+                ],
+                "correct_answer_index": 2,
+                "solution_steps": [
+                    "Üçgen eşitsizliği kuralına göre, bir üçgenin herhangi bir kenarının uzunluğu, diğer iki kenarının uzunlukları toplamından küçük, farkının mutlak değerinden ise büyük olmalıdır.",
+                    "Üçüncü kenarın uzunluğuna x diyelim.",
+                    "|11 - 7| < x < 11 + 7",
+                    "4 < x < 18",
+                    "Bu aralıktaki tam sayılar 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17'dir.",
+                    "Toplam tam sayı değerlerinin sayısını bulmak için (Son Terim - İlk Terim) + 1 formülünü kullanabiliriz: (17 - 5) + 1 = 12 + 1 = 13.",
+                    "Dolayısıyla, üçüncü kenar 13 farklı tam sayı değeri alabilir."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "ABC üçgeninde m(B) = 30° ve m(C) = 45° dir. |AC| kenarının uzunluğu 6 cm ise, |AB| kenarının uzunluğu kaç cm'dir?",
+                "options": [
+                    "6√2 cm",
+                    "6√3 cm",
+                    "3√2 cm",
+                    "12 cm"
+                ],
+                "correct_answer_index": 0,
+                "solution_steps": [
+                    "Üçgenlerde Sinüs Teoremi, kenar uzunluklarının, karşılarındaki açıların sinüslerine oranının sabit olduğunu belirtir.",
+                    "Sinüs Teoremi: a/sin(A) = b/sin(B) = c/sin(C)",
+                    "Soruda verilenlere göre: |AB|/sin(C) = |AC|/sin(B)",
+                    "|AB|/sin(45°) = 6/sin(30°)",
+                    "sin(45°) = √2/2 ve sin(30°) = 1/2 değerlerini yerine yazalım:",
+                    "|AB| / (√2/2) = 6 / (1/2)",
+                    "|AB| * 2 / √2 = 12",
+                    "|AB| * √2 = 12",
+                    "|AB| = 12/√2",
+                    "Paydayı rasyonel yapmak için √2 ile genişletirsek: |AB| = (12√2) / 2 = 6√2 cm bulunur."
+                ],
+                "svg_image": "<svg width='200' height='120' xmlns='http://www.w3.org/2000/svg'><polygon points='10,110 190,110 90,10' style='fill:none;stroke:black;stroke-width:2' /><text x='85' y='10' font-size='16'>A</text><text x='0' y='115' font-size='16'>B</text><text x='192' y='115' font-size='16'>C</text><text x='30' y='100' font-size='14'>30°</text><text x='155' y='100' font-size='14'>45°</text><text x='140' y='60' font-size='14'>6 cm</text><text x='45' y='60' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "Bir ABC üçgeninde |AB| = 10 cm, |BC| = 12 cm ve m(ABC) = 60° olduğuna göre, |AC| kenarının uzunluğu kaç cm'dir?",
+                "options": [
+                    "√124 cm",
+                    "11 cm",
+                    "2√31 cm",
+                    "2√34 cm"
+                ],
+                "correct_answer_index": 2,
+                "solution_steps": [
+                    "İki kenarı ve aralarındaki açısı bilinen bir üçgende üçüncü kenarı bulmak için Kosinüs Teoremi kullanılır.",
+                    "Kosinüs Teoremi: b² = a² + c² - 2ac * cos(B)",
+                    "Burada a = |BC|, c = |AB| ve b = |AC|'dir.",
+                    "|AC|² = |BC|² + |AB|² - 2 * |BC| * |AB| * cos(60°)",
+                    "cos(60°) = 1/2 olduğunu biliyoruz.",
+                    "|AC|² = 12² + 10² - 2 * 12 * 10 * (1/2)",
+                    "|AC|² = 144 + 100 - 120",
+                    "|AC|² = 244 - 120 = 124",
+                    "|AC| = √124 = √(4 * 31) = 2√31 cm bulunur."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "ABC üçgeninde, D noktası [AB] üzerinde, E noktası [AC] üzerinde olmak üzere [DE] // [BC]'dir. |AD| = 6 cm, |DB| = 3 cm ve |BC| = 15 cm ise, |DE| uzunluğu kaç cm'dir?",
+                "options": [
+                    "7.5 cm",
+                    "8 cm",
+                    "9 cm",
+                    "10 cm"
+                ],
+                "correct_answer_index": 3,
+                "solution_steps": [
+                    "[DE] // [BC] olduğundan, ADE üçgeni ile ABC üçgeni benzerdir (Açı-Açı Benzerliği).",
+                    "Benzerlik oranı, karşılıklı kenarların oranına eşittir.",
+                    "Benzerlik oranı = |AD| / |AB|",
+                    "Öncelikle |AB|'nin uzunluğunu bulalım: |AB| = |AD| + |DB| = 6 + 3 = 9 cm.",
+                    "Benzerlik oranı = 6 / 9 = 2/3.",
+                    "Benzer üçgenlerde diğer karşılıklı kenarların oranı da aynıdır: |DE| / |BC| = 2/3",
+                    "|DE| / 15 = 2/3",
+                    "3 * |DE| = 15 * 2",
+                    "3 * |DE| = 30",
+                    "|DE| = 10 cm bulunur."
+                ],
+                "svg_image": "<svg width='200' height='150' xmlns='http://www.w3.org/2000/svg'><polygon points='100,10 10,140 190,140' style='fill:none;stroke:black;stroke-width:2' /><line x1='55' y1='75' x2='145' y2='75' style='stroke:black;stroke-width:2' /><text x='95' y='10' font-size='16'>A</text><text x='0' y='145' font-size='16'>B</text><text x='192' y='145' font-size='16'>C</text><text x='40' y='75' font-size='16'>D</text><text x='150' y='75' font-size='16'>E</text><text x='70' y='50' font-size='14'>6</text><text x='25' y='110' font-size='14'>3</text><text x='90' y='150' font-size='14'>15</text><text x='95' y='72' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "ABC üçgeninde [AN], A açısının açıortayıdır. N noktası [BC] üzerindedir. |AB| = 9 cm, |AC| = 12 cm ve |BC| = 14 cm olduğuna göre, |BN| uzunluğu kaç cm'dir?",
+                "options": [
+                    "5 cm",
+                    "6 cm",
+                    "7 cm",
+                    "8 cm"
+                ],
+                "correct_answer_index": 1,
+                "solution_steps": [
+                    "İç Açıortay Teoremine göre, bir açıortay karşı kenarı, açının kolları oranında böler.",
+                    "Yani, |AB| / |AC| = |BN| / |NC|.",
+                    "9 / 12 = |BN| / |NC| => 3 / 4 = |BN| / |NC|.",
+                    "Bu orana göre |BN| = 3k ve |NC| = 4k diyebiliriz.",
+                    "|BC| = |BN| + |NC| olduğunu biliyoruz.",
+                    "14 = 3k + 4k",
+                    "14 = 7k",
+                    "k = 2 bulunur.",
+                    "Bizden istenen |BN| uzunluğudur: |BN| = 3k = 3 * 2 = 6 cm."
+                ],
+                "svg_image": "<svg width='200' height='130' xmlns='http://www.w3.org/2000/svg'><polygon points='100,10 10,120 190,120' style='fill:none;stroke:black;stroke-width:2' /><line x1='100' y1='10' x2='115' y2='120' style='stroke:black;stroke-width:2' /><text x='95' y='10' font-size='16'>A</text><text x='0' y='125' font-size='16'>B</text><text x='192' y='125' font-size='16'>C</text><text x='110' y='128' font-size='16'>N</text><text x='45' y='60' font-size='14'>9</text><text x='150' y='60' font-size='14'>12</text><text x='55' y='128' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "Taban uzunluğu 16 cm ve alanı 48 cm² olan bir ikizkenar üçgenin eşit kenarlarından birinin uzunluğu kaç cm'dir?",
+                "options": [
+                    "8 cm",
+                    "10 cm",
+                    "12 cm",
+                    "15 cm"
+                ],
+                "correct_answer_index": 1,
+                "solution_steps": [
+                    "Üçgenin alanı = (Taban * Yükseklik) / 2 formülü ile bulunur.",
+                    "48 = (16 * h) / 2",
+                    "48 = 8 * h",
+                    "h = 6 cm. Bu, tabana ait yüksekliktir.",
+                    "İkizkenar üçgende tabana indirilen yükseklik, aynı zamanda kenarortaydır. Yani tabanı iki eşit parçaya böler.",
+                    "Taban 16 cm olduğundan, yükseklik tabanı 8 cm ve 8 cm'lik iki parçaya ayırır.",
+                    "Yükseklik, tabanın yarısı ve eşit kenarlardan biri bir dik üçgen oluşturur.",
+                    "Bu dik üçgenin dik kenarları 6 cm (yükseklik) ve 8 cm (tabanın yarısı) olur.",
+                    "Hipotenüs (ikizkenar üçgenin eşit kenarı) Pisagor teoreminden bulunur: c² = 6² + 8²",
+                    "c² = 36 + 64 = 100",
+                    "c = 10 cm. Bu, 6-8-10 özel dik üçgenidir."
+                ],
+                "svg_image": ""
+            },
+            {
+                "question": "Bir ABC üçgeninin ağırlık merkezi G noktasıdır. A köşesinden [BC] kenarına çizilen kenarortayın uzunluğu 18 cm ise, G noktasının A köşesine olan uzaklığı kaç cm'dir?",
+                "options": [
+                    "6 cm",
+                    "9 cm",
+                    "12 cm",
+                    "15 cm"
+                ],
+                "correct_answer_index": 2,
+                "solution_steps": [
+                    "Ağırlık merkezi (G), kenarortayları köşeden kenara doğru 2'ye 1 oranında böler.",
+                    "Kenarortayın A köşesinden [BC] kenarındaki D noktasına indiğini varsayalım. |AD| = 18 cm.",
+                    "Ağırlık merkezi G, bu kenarortayı |AG| ve |GD| olarak iki parçaya ayırır.",
+                    "Oran |AG| / |GD| = 2 / 1 şeklindedir. Yani |AG| = 2k ve |GD| = k diyebiliriz.",
+                    "Kenarortayın toplam uzunluğu |AD| = |AG| + |GD| = 2k + k = 3k'dir.",
+                    "3k = 18 cm ise, k = 6 cm olur.",
+                    "Soruda G noktasının A köşesine olan uzaklığı, yani |AG| sorulmaktadır.",
+                    "|AG| = 2k = 2 * 6 = 12 cm bulunur."
+                ],
+                "svg_image": "<svg width='200' height='150' xmlns='http://www.w3.org/2000/svg'><polygon points='100,10 10,140 190,140' style='fill:none;stroke:black;stroke-width:2' /><line x1='100' y1='10' x2='100' y2='140' style='stroke:black;stroke-width:2;stroke-dasharray: 4 2;' /><circle cx='100' cy='63.3' r='3' fill='black' /><text x='95' y='10' font-size='16'>A</text><text x='0' y='145' font-size='16'>B</text><text x='192' y='145' font-size='16'>C</text><text x='95' y='150' font-size='16'>D</text><text x='105' y='68' font-size='16'>G</text><text x='105' y='40' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "Bir dik üçgende, 30 derecelik açının karşısındaki kenarın uzunluğu 5 cm ise, 60 derecelik açının karşısındaki kenarın uzunluğu kaç cm'dir?",
+                "options": [
+                    "10 cm",
+                    "5√2 cm",
+                    "5√3 cm",
+                    "2.5 cm"
+                ],
+                "correct_answer_index": 2,
+                "solution_steps": [
+                    "Bu bir 30-60-90 özel dik üçgenidir.",
+                    "30-60-90 üçgeninde kenar uzunlukları arasında belirli bir oran vardır.",
+                    "30 derecenin karşısındaki kenara 'a' dersek:",
+                    "Hipotenüs (90 derecenin karşısı) '2a' olur.",
+                    "60 derecenin karşısındaki kenar 'a√3' olur.",
+                    "Soruda 30 derecenin karşısındaki kenar 5 cm olarak verilmiş, yani a = 5 cm.",
+                    "Bu durumda 60 derecenin karşısındaki kenar a√3 = 5√3 cm olur."
+                ],
+                "svg_image": "<svg width='150' height='180' xmlns='http://www.w3.org/2000/svg'><polygon points='130,170 10,170 130,10' style='fill:none;stroke:black;stroke-width:2' /><text x='135' y='15' font-size='16'>A</text><text x='0' y='175' font-size='16'>B</text><text x='132' y='175' font-size='16'>C</text><text x='20' y='160' font-size='14'>60°</text><text x='105' y='35' font-size='14'>30°</text><text x='135' y='90' font-size='14'>5 cm</text><text x='60' y='180' font-size='16'>?</text></svg>"
+            },
+            {
+                "question": "Çeşitkenar bir ABC üçgeninde, |AB| = 6 cm ve |AC| = 10 cm'dir. BC kenarının uzunluğu bir tam sayı olduğuna göre, bu üçgenin çevresinin alabileceği en büyük tam sayı değeri kaçtır?",
+                "options": [
+                    "30 cm",
+                    "31 cm",
+                    "32 cm",
+                    "33 cm"
+                ],
+                "correct_answer_index": 1,
+                "solution_steps": [
+                    "Üçgenin çevresinin en büyük değerini alması için, bilinmeyen kenar olan |BC|'nin alabileceği en büyük tam sayı değerini bulmalıyız.",
+                    "Üçgen eşitsizliğine göre: |AC| - |AB| < |BC| < |AC| + |AB|",
+                    "10 - 6 < |BC| < 10 + 6",
+                    "4 < |BC| < 16",
+                    "|BC|'nin alabileceği en büyük tam sayı değeri 15'tir.",
+                    "Üçgenin çevresi = |AB| + |AC| + |BC|",
+                    "Çevrenin en büyük değeri = 6 + 10 + 15",
+                    "Çevre = 31 cm bulunur."
+                ],
+                "svg_image": ""
+            }
+        ]
     }
 ]
